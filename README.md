@@ -1,5 +1,7 @@
-# Notes app
+# Notes backend
 
-SUPER basic SPA meant to practice React Hooks, Node.js and MongoDB.
+Node/Express RESTful API paired with the build version of
+the following React Project: https://github.com/thanosades/notes-frontend
 
-Live demo deployed at https://young-wildwood-25449.herokuapp.com/
+It listens to a MongoDB database on Atlas, and uses a
+JSON Web Token for authentication.
