@@ -8,7 +8,9 @@ Practice React Hooks and Node/Express.
 * Jest for unit testing
 * MongoDB interaction with mongoose
 * Use JSON Web Token for authentication
+* Salting a password before storing it to protect against rainbow table attacks
 * How to deploy on Heroku
+
 
 Node/Express RESTful API paired with the build version of
 the following React Project: https://github.com/thanosades/notes-frontend
