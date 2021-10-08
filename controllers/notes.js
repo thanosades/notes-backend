@@ -58,7 +58,7 @@ notesRouter.post('/', async (req, res) => {
 
 notesRouter.delete('/:id', async (req, res) => {
   await Note.findByIdAndRemove(req.params.id)
-  res.status(204).end()
+  res.status(200).end()
 })
 
 notesRouter.put('/:id', (req, res) => {
