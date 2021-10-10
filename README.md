@@ -1,7 +1,8 @@
 # Notes backend
 
 ## Motivation
-Practice React Hooks and Node/Express.
+This was my first fullstack project. The purpose was to learn React Hooks
+and how to setup a CRUD backend with Node/Express with MongoDB.
 
 ## Things I learned
 * Node/Express
