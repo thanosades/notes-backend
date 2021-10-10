@@ -1,17 +1,24 @@
 # Notes backend
 
-## Motivation
-This was my first fullstack project. The purpose was to learn React Hooks
-and how to setup a CRUD backend with Node/Express with MongoDB.
+My first fullstack project ever. Live [here](https://sleepy-thicket-43745.herokuapp.com/).
+You know how when you play an RPG game, you're high level but you still
+reminisce the time when you were level 3, had some wooden sword for gear
+and you kept killing slimes and bats?
+
+This is why I don't want to improve this project. I want it to stay this way,
+in all it's lack of user account creation, styling or logout button to remind me
+of the old me.
 
 ## Things I learned
+* React Hooks
 * Node/Express
-* Jest for unit testing
-* MongoDB interaction with mongoose
-* Use JSON Web Token for authentication
-* Salting a password before storing it to protect against rainbow table attacks
-* How to deploy on Heroku
+* Basic testing with Jest
+* MongoDB with mongoose
+* JSON Web Token for authentication
+* Password salting for protection against rainbow table attacks
+* How to deploy a project on Heroku
 
+## Usage Instructions
 
 Node/Express RESTful API paired with the build version of
 the following React Project: https://github.com/thanosades/notes-frontend
@@ -25,6 +32,6 @@ check the app out, the credentials are listed below.
 username: superuser
 password: superpass
 
-The app can be found at https://sleepy-thicket-43745.herokuapp.com/. 
+
 Please note that the frontend isn't finalized.
 
