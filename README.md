@@ -1,6 +1,6 @@
 # Notes backend
 
-My first fullstack project ever. Live [here](https://sleepy-thicket-43745.herokuapp.com/).
+My first fullstack project ever. Live [here](https://level-one-notes.herokuapp.com/).
 You know how when you play an RPG game, you're high level but you still
 reminisce the time when you were level 3, had some wooden sword for gear
 and you kept killing slimes and bats?
