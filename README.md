@@ -1,7 +1,7 @@
 # Notes backend
 
-My first backend project ever. Live [here](https://level-one-notes.herokuapp.com/) with really basic frontend.
-The for login use the following:
+My first project. Live [here](https://level-one-notes.herokuapp.com/) with really basic frontend.
+The credentials to login are the following:
 username: superuser
 password: superpass
 
