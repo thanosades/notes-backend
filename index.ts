@@ -8,3 +8,4 @@ const server = http.createServer(app)
 server.listen(config.PORT || 5000, () => {
   logger.info(`Server running on port ${config.PORT}`)
 })
+export {}

@@ -33,3 +33,4 @@ module.exports = {
   unknownEndpoint,
   errorHandler
 }
+export {}

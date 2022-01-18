@@ -1,5 +1,11 @@
 const mongoose = require('mongoose')
 
+export interface NoteType {
+  content: String;
+  date: Date;
+  important: Boolean;
+}
+
 const noteSchema = new mongoose.Schema({
   content: {
     type: String,
@@ -18,7 +24,7 @@ const noteSchema = new mongoose.Schema({
 })
 
 noteSchema.set('toJSON', {
-  transform: (document, returnedObj) => {
+  transform: (_: never, returnedObj: any) => {
     returnedObj.id = returnedObj._id.toString()
     delete returnedObj._id
     delete returnedObj.__v
@@ -26,3 +32,4 @@ noteSchema.set('toJSON', {
 })
 
 module.exports = mongoose.model('Note', noteSchema)
+export {}

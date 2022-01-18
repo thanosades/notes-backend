@@ -30,3 +30,4 @@ loginRouter.post('/', async (req, res) => {
 })
 
 module.exports = loginRouter
+export {}

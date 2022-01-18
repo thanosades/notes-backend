@@ -76,3 +76,4 @@ notesRouter.put('/:id', async (req, res) => {
 })
 
 module.exports = notesRouter
+export {}
