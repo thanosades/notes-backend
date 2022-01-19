@@ -1,18 +1,20 @@
 # Notes backend
 
-My first project. Live [here](https://level-one-notes.herokuapp.com/) with really basic frontend.
-The credentials to login are the following:
+Live [here](https://level-one-notes.herokuapp.com/). This was my first frontend project.
+
+The credentials to login are:
 username: superuser
 password: superpass
 
-## Things I learned
+## Stack used
 * Node/Express
-* Supertest
 * MongoDB
 * JSON Web Token
+* bcrypt
 
 ## New user creation
-To create users go through the `POST /api/users` endpoint.
+`POST /api/users`
 
-## .NET 6 port
-I started porting this project in .NET using [this repository](https://github.com/thanosades/NotesApi) but it's still not finished.
+## CRUD note access
+GET `/api/notes`
+POST `/api/notes/id`
